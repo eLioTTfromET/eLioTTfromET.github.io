@@ -1,22 +1,32 @@
 body {
     background-color: rgb(106, 0, 92);
   }
-  
+
   h1 {
     color: white;
     text-align: center;
   }
-  
+  h4 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  }
+
   body {
     color: white;
+  }
+
+  .left {
+    float: left;
+    width: 50%;
   }
 
   p {
     font-family: verdana;
     font-size: 40px;
   }
-  
-  
+
+
   ul {
-  
+
   }
