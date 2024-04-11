@@ -12,13 +12,14 @@ body {
     text-align: center;
   }
 
-  body {
+  h3 {
+    font-size: 20px;
+    text-align: left;
     color: white;
   }
-
-  .left {
-    float: left;
-    width: 50%;
+  
+  body {
+    color: white;
   }
 
   p {
