@@ -1,5 +1,5 @@
 body {
-    background-color: Aqua;
+    background-color: rgb(106, 0, 92);
   }
   
   h1 {
@@ -7,6 +7,10 @@ body {
     text-align: center;
   }
   
+  body {
+    color: white;
+  }
+
   p {
     font-family: verdana;
     font-size: 40px;
