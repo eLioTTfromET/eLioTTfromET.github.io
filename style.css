@@ -1,29 +1,37 @@
 body {
+    font-family: papyrus;
     background-color: rgb(106, 0, 92);
   }
 
   h1 {
+    font-family: papyrus;
     color: white;
     text-align: center;
   }
   h4 {
+    font-family: papyrus;
     color: white;
     font-size: 20px;
     text-align: center;
   }
-
   h3 {
     font-size: 20px;
     text-align: left;
     color: white;
   }
-  
   body {
+    font-family: papyrus;
     color: white;
   }
 
+  .left {
+    font-family: papyrus;
+    float: left;
+    width: 50%;
+  }
+
   p {
-    font-family: verdana;
+    font-family: papyrus;
     font-size: 40px;
   }
 
