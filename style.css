@@ -19,6 +19,12 @@ body {
     text-align: left;
     color: white;
   }
+
+  h2 {
+    font-size: 35px;
+    text-align: left;
+    color: white;
+  }
   body {
     font-family: papyrus;
     color: white;
