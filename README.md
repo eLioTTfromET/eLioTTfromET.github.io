@@ -1,4 +1,4 @@
-# eliottmendoza.github.io
+# eliottfromet.github.io
 
 my own personal website
 
