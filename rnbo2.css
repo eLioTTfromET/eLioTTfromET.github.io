@@ -1,0 +1,46 @@
+html{
+  background-color: rgba(0,0,0,255);
+}
+body {
+  margin: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  flex-direction: column; /* Stack elements vertically */
+  color: white; /* Optional: Ensure text color is visible */
+}
+
+.grid-container {
+    border-top: 10px solid rgba(50,50,50,255); /* Border around the grid */
+    border-left: 10px solid rgba(50,50,50,255); /* Border around the grid */
+    border-right: 5px solid rgba(50,50,50,255); /* Border around the grid */
+    border-bottom: 4px solid rgba(50,50,50,255); /* Border around the grid */
+    display: inline-block; /* Shrinks to fit the content */
+    border-radius: 10px; /* Optional: Rounded corners for the border */
+    background-color: rgba(50,50,50,255); /* Background inside the border */
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Stack the grid and output vertically */
+    align-items: center; /* Center the grid horizontally */
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(16, 50px); /* 16 columns */
+    grid-template-rows: repeat(8, 50px);    /* 8 rows */
+    gap: 5px; /* Spacing between buttons */
+  }
+.button {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(100,100,100,255);
+  cursor: pointer;
+  border-radius: 10%;
+  transition: background-color 0.1s ease; /* Smooth transition for visual effect */
+}
+.on {
+  background-color: rgba(255,230,100,255);
+}
+.off {
+  background-color: rgba(100,100,100,255);
+}
